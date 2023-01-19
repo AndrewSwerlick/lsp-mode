@@ -835,6 +835,7 @@ Changes take effect only when a new session is started."
                                         (yaml-mode . "yaml")
                                         (yaml-ts-mode . "yaml")
                                         (ruby-mode . "ruby")
+                                        (ruby-ts-mode . "ruby")
                                         (enh-ruby-mode . "ruby")
                                         (fortran-mode . "fortran")
                                         (f90-mode . "fortran")
@@ -5886,6 +5887,7 @@ Request codeAction/resolve for more info if server supports."
     (css-mode                   . css-indent-offset)                ; CSS
     (d-mode                     . c-basic-offset)                   ; D
     (enh-ruby-mode              . enh-ruby-indent-level)            ; Ruby
+    (ruby-ts-mode               . ruby-indent-level)            ; Ruby
     (erlang-mode                . erlang-indent-level)              ; Erlang
     (ess-mode                   . ess-indent-offset)                ; ESS (R)
     (go-ts-mode                 . go-ts-mode-indent-offset)
